@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us – Paws & Tails</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">Paws <span>&amp; Tails</span>™</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="nav-hidden">About Us</a></li>
+      <li><a href="features.html" class="nav-hidden">Features</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="contact.html" class="nav-cta">Visit Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="eyebrow">We'd Love to Hear From You</div>
+    <h1>Contact Us</h1>
+    <p>Visit our store, give us a call, or drop us a message — our team is always here to help.</p>
+  </div>
+
+  <!-- CONTACT MAIN -->
+  <section class="section">
+    <div class="contact-grid">
+
+      <!-- INFO -->
+      <div class="contact-info">
+        <p class="section-eyebrow">Get in Touch</p>
+        <h2>We're Here for You &amp; Your Pet</h2>
+        <div class="contact-detail">
+          <div class="icon">📍</div>
+          <div><h4>Store Address</h4><p>Shop 12, Liberty Market<br>Gulberg III, Lahore, Punjab<br>Pakistan – 54660</p></div>
+        </div>
+        <div class="contact-detail">
+          <div class="icon">📞</div>
+          <div><h4>Phone Number</h4><p>+92 300 1234567<br>+92 42 3571 0000</p></div>
+        </div>
+        <div class="contact-detail">
+          <div class="icon">✉️</div>
+          <div><h4>Email Address</h4><p>hello@pawsandtails.pk<br>support@pawsandtails.pk</p></div>
+        </div>
+        <div class="contact-detail">
+          <div class="icon">⏰</div>
+          <div>
+            <h4>Business Hours</h4>
+            <table class="hours-table">
+              <tr><td>Monday – Friday</td><td>10:00 AM – 8:00 PM</td></tr>
+              <tr class="today"><td>Saturday</td><td>9:00 AM – 9:00 PM</td></tr>
+              <tr><td>Sunday</td><td>11:00 AM – 6:00 PM</td></tr>
+              <tr><td>Public Holidays</td><td>12:00 PM – 5:00 PM</td></tr>
+            </table>
+          </div>
+        </div>
+        <div style="margin-top:2rem;">
+          <h4 style="font-size:0.9rem;color:var(--dark-green);margin-bottom:0.5rem;">Follow Us</h4>
+          <div class="social-links-row">
+            <a href="#" class="social-link-btn">f Facebook</a>
+            <a href="#" class="social-link-btn">𝕏 Twitter</a>
+            <a href="#" class="social-link-btn">📸 Instagram</a>
+            <a href="#" class="social-link-btn">▶ YouTube</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- FORM -->
+      <div class="contact-form">
+        <h3>Send Us a Message</h3>
+        <div class="form-row">
+          <div class="form-group"><label for="name">Full Name</label><input type="text" id="name" placeholder="e.g. Ayesha Khan" /></div>
+          <div class="form-group"><label for="email">Email Address</label><input type="email" id="email" placeholder="you@email.com" /></div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <select id="subject">
+            <option value="">Select a topic…</option>
+            <option>Product Enquiry</option>
+            <option>Grooming Appointment</option>
+            <option>Vet Consultation</option>
+            <option>Pet Adoption</option>
+            <option>Order / Delivery Issue</option>
+            <option>Loyalty Rewards</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group"><label for="message">Your Message</label><textarea id="message" placeholder="Tell us how we can help you and your pet…"></textarea></div>
+        <button class="btn-primary" type="button" style="width:100%;" onclick="document.getElementById('form-success').style.display='block'">Send Message</button>
+        <div class="form-success" id="form-success">✅ Thank you! We'll get back to you within 24 hours.</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section class="section-sm" style="background-color:var(--card-bg);">
+    <div class="section-header">
+      <p class="section-eyebrow">Find Us</p>
+      <h2>Visit Our Store</h2>
+      <p>We're located in the heart of Lahore — easy to reach by car, auto, or ride-share.</p>
+    </div>
+    <div class="map-placeholder">
+      <div class="map-icon">🗺️</div>
+      <p>Paws &amp; Tails — Liberty Market, Lahore</p>
+      <p style="font-family:Arial,sans-serif;font-size:0.8rem;opacity:0.7;font-weight:400;">Google Maps integration goes here</p>
+      <a href="https://maps.google.com" target="_blank" class="btn-primary" style="font-size:0.85rem;padding:0.6rem 1.5rem;">Open in Google Maps</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="section-header">
+      <p class="section-eyebrow">Common Questions</p>
+      <h2>Frequently Asked Questions</h2>
+      <p>Quick answers to the things pet owners ask us most.</p>
+    </div>
+    <div class="faq-grid">
+      <div>
+        <div class="faq-item"><h4>Do I need an appointment for grooming?</h4><p>Walk-ins are welcome but we recommend booking in advance, especially on weekends. Call us or send a WhatsApp message to reserve a slot.</p></div>
+        <div class="faq-item"><h4>Do you offer home delivery?</h4><p>Yes! Same-day delivery within Lahore and 2–3 business day shipping across Pakistan. Orders above Rs 2,000 get free delivery.</p></div>
+        <div class="faq-item"><h4>What payment methods do you accept?</h4><p>We accept cash, EasyPaisa, JazzCash, credit/debit cards, and bank transfers both in-store and online.</p></div>
+        <div class="faq-item"><h4>Can I return a product I'm unhappy with?</h4><p>Absolutely. We offer a 7-day return policy on all products in original condition. For perishable items, check within 24 hours of delivery.</p></div>
+      </div>
+      <div>
+        <div class="faq-item"><h4>How does the vet consultation work?</h4><p>Book an in-store appointment or a virtual call with Dr. Sana Raza. Available Monday–Saturday, priced at Rs 800 per session.</p></div>
+        <div class="faq-item"><h4>How do I join the Loyalty Rewards Program?</h4><p>Create an account on our website or ask in-store. You automatically earn Paw Points on every purchase.</p></div>
+        <div class="faq-item"><h4>Do you help with pet adoption?</h4><p>Yes! We run monthly adoption drives in partnership with local shelters. Follow our social media for upcoming events.</p></div>
+        <div class="faq-item"><h4>What breeds do you groom?</h4><p>Our groomers are experienced with all dog and cat breeds — from long-coated Persians to short-haired Labradors.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BAND -->
+  <div class="stats-band">
+    <div class="stat-item"><div class="stat-number">&lt;24<sup>h</sup></div><div class="stat-label">Response time</div></div>
+    <div class="stat-item"><div class="stat-number">24<sup>/7</sup></div><div class="stat-label">Support available</div></div>
+    <div class="stat-item"><div class="stat-number">4.9<sup>★</sup></div><div class="stat-label">Support rating</div></div>
+    <div class="stat-desc">
+      <p>Our customer support team responds to every message with care and expertise. You're never just a ticket number.</p>
+      <a href="mailto:hello@pawsandtails.pk" class="btn-gold">Email us directly →</a>
+    </div>
+  </div>
+
+  <!-- NEWSLETTER -->
+  <div class="newsletter-section">
+    <p class="section-eyebrow" style="color:var(--light-green);">Stay Updated</p>
+    <h2>Get Pet Care Tips &amp; Exclusive Deals</h2>
+    <p>Join over 12,000 pet lovers who get our weekly newsletter.</p>
+    <div class="newsletter-form">
+      <input type="email" placeholder="Enter your email address" />
+      <button type="button">Subscribe</button>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">Paws <span>&amp; Tails</span>™</div>
+        <p>Your one-stop destination for premium pet products, expert grooming, and compassionate care.</p>
+        <div class="social-icons"><a href="#">f</a><a href="#">in</a><a href="#">𝕏</a><a href="#">▶</a></div>
+      </div>
+      <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="features.html">Features</a></li><li><a href="contact.html">Contact Us</a></li></ul></div>
+      <div class="footer-col"><h4>Services</h4><ul><li><a href="features.html">Grooming</a></li><li><a href="features.html">Vet Consultation</a></li><li><a href="features.html">Pet Adoption</a></li><li><a href="features.html">Home Delivery</a></li></ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul><li><a href="#">📍 Liberty Market, Lahore</a></li><li><a href="#">📞 +92 300 1234567</a></li><li><a href="#">✉️ hello@pawsandtails.pk</a></li><li><a href="#">⏰ Mon–Sat, 10am–8pm</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Paws &amp; Tails. All rights reserved.</p>
+      <p>Made with 🐾 for pet lovers everywhere</p>
+    </div>
+  </footer>
+
+</body>
+</html>
